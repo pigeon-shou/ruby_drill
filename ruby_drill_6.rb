@@ -13,8 +13,7 @@ end
 # ブロック do ||はローカル変数を参照できる
 
 i = 0
-
-while i <= 10
-  i += 1
+while (i <= 10) do
   puts i
+  i += 1
 end
